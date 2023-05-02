@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: mulish, san sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F8FF;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #fff;
+    padding: 80px 70px;
+    box-shadow: #87cefacb 0px 1px 2px 0px;
+    border-radius: 7px;
+    width: 800px;
+
+}
+
+.subscribetitle {
+    text-align: center;
+    margin: -20px;
+    margin-bottom: 50px;
+}
+
+.subscribetitle p {
+    margin-top: 15px;
+    margin-bottom: -15px;
+
+}
+
+.subscribeinput input {
+    padding: 13px;
+    width: 70%;
+    border: 1px solid #D3D3D3;
+    outline: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+button {
+    padding: 13px;
+    width: 190px;
+    background-color: #3D9FFF;
+    border: 1px solid #3D9FFF;
+    box-shadow: #3D9FFF 1px 2px 5px 0px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+.terms {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+input:focus {
+    border: 1px solid #87CEFA;
+
+}
+@media (max-width: 850px){
+   
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .subscribeinput{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribeinput input{
+        width: 320px;
+
+    }
+    .subscribeinput button{
+        margin-top: 10px;
+        width: 320px;
+    }
+   
+}
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .subscribeinput input{
+        width: 250px;
+
+    }
+    .subscribeinput button{
+        margin-top: 10px;
+        width: 250px;
+    }
+ 
+}
+
+
+
+
+
+
+
+    
